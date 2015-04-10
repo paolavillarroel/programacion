@@ -1,0 +1,20 @@
+// contador.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main (){
+	int S,N,I;
+	S=0;
+	cout <<"ingrese N ";
+	cin >> N;
+	for (I=1,I<=N,I++);
+		S=S+1;
+	cout "La suma es:"<<S;
+	getch ();
+	return 0;
+}
