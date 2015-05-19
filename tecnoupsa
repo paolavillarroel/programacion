@@ -1,0 +1,81 @@
+cout<<"/tCOFFE BREAK/T"<<endl;
+	cout<<"1.Sandwichs"<<endl;
+	cout<<"2.postres"<<endl;
+	cout<<"3.jugos"<<endl;
+	cout<<"4.sodas"<<endl;
+	cout<<"5.cafe"<<endl;
+	cout<<"6.piqueos"<<endl;
+	cout<<"0.salir"<<endl;
+	cout<<"Elige una opcion: "<<endl;
+	cin>> opcion;
+	switch(opcion){
+		case 1:
+			cout<<"/tSANDWICHS/t"<<endl;
+			cout<<"1.sandwich de queso"<<endl;
+			cout<<"2.sandwich de jamon y queso"<<endl;
+			cout<<"3.sandwich de pollo"<<endl;
+			cout<<"4.sandwich de carne"<<endl;
+			cout<<"0.salir"<<endl;
+			cout<<"Elige una opcion: "<<endl;
+			cin>> opcion;
+			switch(opcion){
+		case 1 :
+				cout<<"/tSANDWICH DE QUESO/t"<<endl;
+				cout<<"el costo es de : Bs 12"<<endl;
+				cout<<"1.comprar"<<endl;
+				cout<<"0.salir"<<endl;
+				cout<<"elige una opcion: "<<endl;
+				cin>>opcion;
+				if(opcion=1)
+				{
+					cout<<"transaccion exitosa"<<endl;
+				}
+				
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		case 2:
+			cout<<"/tPOSTRES/t"<<endl;
+			cout<<"1.gelatina royal"<<endl;
+            cout<<"2.gelatina de pata"<<endl;
+            cout<<"3.torta"<<endl;
+	        cout<<"4.helado"<<endl;
+		case 3:
+			cout<<"/tJUGOS/t"<<endl;
+			cout<<"1.jugo de papaya"<<endl;
+			cout<<"2.jugo de guineo"<<endl;
+			cout<<"3.jugo de frutilla"<<endl;
+			cout<<"4.jugo de lima"<<endl;
+			cout<<"5.jugo de limonada"<<endl;
+		case 4:
+			cout<<"/tSODAS/t"<<endl;
+			cout<<"1.cocacola"<<endl;
+			cout<<"2.fanta"<<endl;
+			cout<<"3.sprit"<<endl;
+		case 5:
+			cout<<"/tCAFE/t"<<endl;
+			cout<<"1.cafe"<<endl;
+			cout<<"2.cafe con leche"<<endl;
+		case 6:   
+
+	return 0;
+}
+
+
+
+
