@@ -1,0 +1,48 @@
+
+// jugadores españoles.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	int je,ms,pq,m,c,s,df,r,e,nf,ed,fh,h,p,opcion;
+do{
+	cout<<"\t JUGADORES ESPAÑOLES\t "<<endl;
+	cout<<"1. Messi"<<endl;
+	cout<<"2. Pique"<<endl;
+	cout<<"3. Marcelo"<<endl;
+	cout<<"4. Casillas"<<endl;
+	cout<<"0. Salir"<<endl;
+	cout<<"Elige una opcion";
+	cin>> opcion;
+	
+	switch(opcion){
+	case 1:
+		cout<<"\t MESSI"<<endl;
+		cout<<"1. Datos fisicos"<<endl;
+		cout<<"2. Rendimiento"<<endl;
+		cout<<"3. Equipo"<<endl;
+		cout<<"4. Numero de faltas"<<endl;
+		cout<<"0. Salir"<<endl;
+		cout<<" Eliga una opcion";
+		cin>> opcion;
+		
+		switch(opcion){
+		case 1:
+			cout<<"EDAD:25años"<<endl;
+			cout<<"FECHA DE NACIMIENTO:24 de junio de 1987"<<endl;
+			cout<<"ALTURA:5`7"<<endl;
+			cout<<"PESO:147libras"<<endl;
+		}	
+	
+		}
+		}while(opcion!=0);
+		
+		getch();	
+		
+	}
