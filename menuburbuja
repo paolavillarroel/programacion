@@ -1,0 +1,61 @@
+// 14 del practico vectores.cpp : Defines the entry point for the console application.
+//
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#define MAX 100
+
+using namespace std;
+
+void cargar(int vec[],int tam);
+void ordenar(int vec[],int tam);
+void ordenart(int vec[],int tam);
+void ordenarp(int vec[],int tam);
+void mostrar(int vec[],int tam);
+void main()
+{
+int n, vec[MAX],opcion;
+    do{
+    cout<< "Ingrese el numero de elementos del vector: ";
+    cin>> n;
+	}while((n<=0)||(n>100));
+
+	do{
+		cout<< "MENU";endl;
+		cout<<"1.cargar"<<endl;
+		cout<<"2.mostrar"<<endl;
+		cout<<"3.ordenar ascendente"<<endl;
+		cout<<"4.ordenar descendente"<<endl;
+		cout<<"0.salir"<<endl;
+		cout<<"elige una opcion"<<endl;
+		cin>>opcion;
+
+		switch(opcion){
+		case 1:cargar (vec,n);break;
+		case 2:mostrar (vec,n);break;
+		case 3:ordenart(vec,n);break;
+		case 4:ordenarp(vec,n);break;
+		case 0: cout<<"salir"<<endl;
+		default:>> cout<< "opcion invalida";break;
+        {
+
+	}while 
+getch();
+}
+void cargar(int vec[],int tam)
+{
+     for(int i=0;i<tam;i++)
+     {
+       cout<< "Ingrese el valor para vec["<< i << "]=";
+       cin>> vec[i];
+     }
+}
+void ordenar(int vec[],int tam)
+{
+     int aux,m;
+     for (int i=0;i<tam-1;i++)
+     {
+       for(int j=i+1;j<tam;j++)
+          {
+            if(vec[i]<vec[j])
+               {
