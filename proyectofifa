@@ -1,0 +1,191 @@
+// FIFAESP.cpp : Defines the entry point for the console application.
+//
+#include <iostream>
+#include <conio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sstream>
+#include <iomanip>
+using namespace std;
+
+void menumessi(){
+	int op;
+	do{
+
+			cout<<"*****  MESSI *****"<<endl;
+			cout<<"1. Datos fisicos "<<endl;
+			cout<<"2. Numero de goles "<<endl;
+			cout<<"3. Equipo "<<endl;
+			cout<<"4. Numero de faltas "<<endl;
+			cout<<"0. Salir "<<endl;
+			cout<<"Elija una opcion ";
+		    cin>> op;
+			switch(op){
+			case 1 :
+				cout<<"\n**** DATOS FISICOS ****\n "<<endl;
+				cout<<"EDAD:28años\n "<<endl;
+				cout<<"FECHA DE NACIMIENTO:24 de junio de 1987 Argentina\n"<<endl;
+				cout<<"ALTURA:1.69m\n "<<endl;
+				cout<<"PESO:147 libras\n\n "<<endl;
+				break;
+			case 2: 
+				cout<<"\n**** NUMERO DE GOLES **** \n "<<endl;
+				cout<<"Estadísticas temporada 2014/2015: 56 goles a favor\n\n "<<endl;
+				break;
+			case 3:
+				cout<<"\n*** EQUIPO ***\n "<<endl;
+				cout<<"FC Barcelona\n\n "<<endl;
+				break;
+			case 4:
+				cout<<"\n*** NUMERO DE FALTAS ***\n "<<endl;
+				cout<<"Español:  24 asistencias\n "<<endl;
+				cout<<"Champions:18 asistencias\n "<<endl;
+				cout<<"Copa del Rey: 2 asistencias\n\n "<<endl;
+				break;
+			}
+		}while(op!=0);	
+}
+void menupique(){
+int op;
+do{
+
+			cout<<"*****  PIQUE *****"<<endl;
+			cout<<"1. Datos fisicos "<<endl;
+			cout<<"2. Numero de goles "<<endl;
+			cout<<"3. Equipo "<<endl;
+			cout<<"4. Numero de faltas "<<endl;
+			cout<<"0. Salir "<<endl;
+			cout<<"Elija una opcion ";
+			cin>> op;
+			switch(op){
+			case 1 :
+				cout<<"\n*** DATOS FISICOS ***\n "<<endl;
+				cout<<"EDAD:28años\n "<<endl;
+				cout<<"FECHA DE NACIMIENTO: 2 de febrero de 1987 Barcelona\n"<<endl;
+				cout<<"ALTURA:1.92m \n"<<endl;
+				cout<<"PESO:187 libras \n\n"<<endl;
+				break;
+			case 2: 
+				cout<<"\n*** NUMERO DE GOLES ***\n "<<endl;
+				cout<<"Estadísticas temporada 2014/2015: 7 goles a favor\n\n "<<endl;
+				break;
+			case 3:
+				cout<<"\n*** EQUIPO ***\n"<<endl;
+				cout<<"FC Barcelona\n\n"<<endl;
+				break;
+			case 4:
+				cout<<"\n*** NUMERO DE FALTAS ***\n "<<endl;
+				cout<<"Español: 22 asistencias\n "<<endl;
+				cout<<"Champions: 8 asistencias \n"<<endl;
+				cout<<"Copa del Rey: 2 asistencias\n\n "<<endl;
+				break;
+			}
+		}while(op!=0);	
+};
+void menumarcelo(){
+int op;
+do{
+
+			cout<<"*****  MARCELO *****"<<endl;
+			cout<<"1. Datos fisicos "<<endl;
+			cout<<"2. Numero de goles "<<endl;
+			cout<<"3. Equipo "<<endl;
+			cout<<"4. Numero de faltas "<<endl;
+			cout<<"0. Salir "<<endl;
+			cout<<"Elija una opcion ";
+			cin>> op;
+			switch(op){
+			case 1 :
+				cout<<"\n*** DATOS FISICOS ***\n "<<endl;
+				cout<<"EDAD:27años \n"<<endl;
+				cout<<"FECHA DE NACIMIENTO: 12 de Mayo de 1988 Brasil\n"<<endl;
+				cout<<"ALTURA:1.74m \n"<<endl;
+				cout<<"PESO:165 libras\n\n"<<endl;
+				break;
+			case 2: 
+				cout<<"\n*** NUMERO DE GOLES ***\n "<<endl;
+				cout<<"Estadísticas temporada 2014/2015: 4 goles a favor \n\n"<<endl;
+				break;
+			case 3:
+				cout<<"\n*** EQUIPO *** \n"<<endl;
+				cout<<"Real Madrid \n\n"<<endl;
+				break;
+			case 4:
+				cout<<"\n*** NUMERO DE FALTAS ***\n "<<endl;
+				cout<<"Español: 20 asistencias \n"<<endl;
+				cout<<"Champions: 7 asistencias \n"<<endl;
+				cout<<"Copa del Rey: 2 asistencias \n\n"<<endl;
+				break;
+			}
+		}while(op!=0);	
+}
+
+void menucristiano(){
+int op;
+	do{
+
+			cout<<"*****  CRISTIANO	*****"<<endl;
+			cout<<"1. Datos fisicos "<<endl;
+			cout<<"2. Numero de goles "<<endl;
+			cout<<"3. Equipo "<<endl;
+			cout<<"4. Numero de faltas "<<endl;
+			cout<<"0. Salir "<<endl;
+			cout<<"Elija una opcion ";
+			cin>> op;
+			switch(op){
+			case 1 :
+				cout<<"\n*** DATOS FISICOS ***\n "<<endl;
+				cout<<"EDAD:30años\n "<<endl;
+				cout<<"FECHA DE NACIMIENTO: 5 de febrero de 1985 portugal\n"<<endl;
+				cout<<"ALTURA:1.85m\n "<<endl;
+				cout<<"PESO:172 libras\n"<<endl;
+				break;
+			case 2: 
+				cout<<"\n*** NUMERO DE GOLES ***\n "<<endl;
+				cout<<"Estadísticas temporada 2014/2015:63 goles a favor\n "<<endl;
+				break;
+			case 3:
+				cout<<"\n*** EQUIPO ***\n "<<endl;
+				cout<<"Real Madrid\n "<<endl;
+				break;
+			case 4:
+				cout<<"\n*** NUMERO DE FALTAS ***\n "<<endl;
+				cout<<"Español:0 asistencias\n "<<endl;
+				cout<<"Champions: 3 asistencias\n "<<endl;
+				cout<<"Copa del Rey: 0 asistencias\n "<<endl;
+				break;
+			}
+		}while(op!=0);
+
+}
+
+void main(){
+int opcion;
+	do{
+		system("cls");/// PARA SALTAR DATOS 
+		cout<<"    JUGADORES ESPANOLES   "<<endl;
+		cout<<"1. Messi"<<endl;
+		cout<<"2. Pique"<<endl;
+		cout<<"3. Marcelo"<<endl;
+		cout<<"4. Cristiano"<<endl;
+		cout<<"0. Salir"<<endl;
+		cout<<"Elige una opcion: ";
+		cin>>opcion;
+		switch (opcion){
+		case 1:system("cls");
+			menumessi();
+			break;
+		case 2:system("cls");
+			menupique();
+			break;
+		case 3:system("cls");
+			menumarcelo();
+			break;
+        case 4:system("cls");
+			menucristiano();
+			break;
+
+		}
+	}while(opcion!=0);
+			
+}	
